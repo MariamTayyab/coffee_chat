@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "617750663293",
+    "project_id": "chit-chat-efdb5",
+    "storage_bucket": "chit-chat-efdb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617750663293:android:984ed72a08cb2d65a7a114",
+        "android_client_info": {
+          "package_name": "com.example.coffee_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617750663293-3netmhjmfk5tivo8b1fosa97gkoqeani.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coffee_chat",
+            "certificate_hash": "1772abc89a6f07506f7361478a4d2ccad7eef063"
+          }
+        },
+        {
+          "client_id": "617750663293-n4m4lid80lpvc3ejd9la479fu98bljpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxuwEpJE1UdisS2JNCuZ4dd2NqpnCixHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617750663293-n4m4lid80lpvc3ejd9la479fu98bljpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

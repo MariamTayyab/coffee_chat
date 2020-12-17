@@ -17,8 +17,7 @@ class ChatMessage extends StatelessWidget{
         children: [
           Container(
             margin: EdgeInsets.only(right: 16.0),
-          child: CircleAvatar(
-            child: Text(record.name[0],),),
+          child: CircleAvatar(backgroundImage: NetworkImage(record.avatarUrl),),
           ),
           Container(
             decoration: BoxDecoration(

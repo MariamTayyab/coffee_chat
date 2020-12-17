@@ -1,4 +1,5 @@
 import 'package:coffee_chat/models/record.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class ChatMessage extends StatelessWidget{
  final Map<String, dynamic> snapshot;
@@ -9,11 +10,27 @@ class ChatMessage extends StatelessWidget{
 
     final record = Record.fromMap(snapshot);
     return Container(
+      margin:EdgeInsets.symmetric(vertical:10.0),
+
       child : Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          CircleAvatar(
+          Container(
+            margin: EdgeInsets.only(right: 16.0),
+          child: CircleAvatar(
             child: Text(record.name[0],),),
-          Text(record.text),
+          ),
+          Container(
+            decoration: BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+              color:Colors.white,
+          ),
+          child:Padding(
+
+         padding: const EdgeInsets.all(15.0),
+          child: Text(record.text),
+          ),
+          ),
       ],
       ),
     );
